@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">San gabriel App</string>
+    <string name="label">San gabriel App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="acerca_de">  App móvil para el control y
+    gestión de avance en los
+    proyectos.</string>
+
+</resources>

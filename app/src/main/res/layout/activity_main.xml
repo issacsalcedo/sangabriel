@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:text="Nuevo"
+            android:layout_weight=".50"
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Nuevo"
+            android:layout_weight=".30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+         <View
+             android:layout_width="0dp"
+             android:layout_height="2dp"
+             android:background="@color/black"
+             android:layout_gravity="bottom"
+             android:layout_marginBottom="10dp"
+             android:layout_weight=".20"
+             >
+
+         </View>
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom|center"
+        android:orientation="horizontal">
+        <Button
+            android:text="Nuevo"
+            android:layout_weight=".50"
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Nuevo"
+            android:layout_weight=".30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".20"
+            >
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Apellido"
+            android:layout_weight=".70"></EditText>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".30"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="709dp"></Space>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:divider="@color/black"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:text="Aceptar"
+            android:layout_weight=".50"
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
